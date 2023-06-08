@@ -11,8 +11,11 @@
     />
     <title>Document</title>
     <style>
-      * {
-        box-sizing: border-box;
+      .mainrectangle {
+        width: 872px;
+        height: 570px;
+        background-color: hsl(0, 0%, 90%);
+        margin: auto;
       }
       .rectangle {
         background-color: bisque;
@@ -24,10 +27,13 @@
         border-color: firebrick chartreuse burlywood aqua;
         border-style: solid solid dashed dashed;
         font-size: 24px;
+        display: inline-block;
       }
     </style>
   </head>
   <body>
-    <div class="rectangle">I am colorful rectangle</div>
+    <div class="mainrectangle">
+      <div class="rectangle">I am colorful rectangle</div>
+    </div>
   </body>
 </html>
