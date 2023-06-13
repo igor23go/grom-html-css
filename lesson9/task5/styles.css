@@ -20,7 +20,7 @@
 }
 .nav-item {
   float: left;
-  margin: 0px 0px 0px 16px;
+  margin-left: 16px;
   color: white;
 }
 .content {
