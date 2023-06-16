@@ -1,18 +1,16 @@
 * {
   box-sizing: border-box;
 }
-body {
-  display: flex;
-  flex-direction: column;
-}
+
 header {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .article {
-  flex-basis: 300px;
   background-color: bisque;
+  flex-basis: auto;
+  flex-shrink: 1;
 }
 .article p {
   margin: 8px;
