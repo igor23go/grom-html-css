@@ -4,21 +4,21 @@
 
 header {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
+
 .article {
   background-color: bisque;
-  width: 300px;
-}
-.article p {
+  flex-basis: 300px;
+  min-width: 300px;
   margin: 8px;
   padding: 16px;
+  flex-grow: 1;
 }
-.article h2 {
-  margin: 8px;
-  padding: 16px;
-}
-.article-list {
+
+.articles-list {
   display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
 }
