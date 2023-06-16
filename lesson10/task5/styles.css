@@ -20,5 +20,4 @@ header {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid black;
 }
