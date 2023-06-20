@@ -11,10 +11,10 @@ header {
 .article {
   background-color: bisque;
   flex-basis: 300px;
-  min-width: 300px;
   margin: 8px;
   padding: 16px;
   flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .articles-list {
