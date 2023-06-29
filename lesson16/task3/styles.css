@@ -9,6 +9,7 @@ input[type='checkbox'] {
   font-size: 24px;
   top: 16px;
   left: 16px;
+  line-height: 24px;
 }
 .checkmark {
   width: 25px;
