@@ -7,7 +7,8 @@ input[type='checkbox'] {
   position: relative;
   padding-left: 35px;
   font-size: 24px;
-  margin: 16px;
+  top: 16px;
+  left: 16px;
 }
 .checkmark {
   width: 25px;
