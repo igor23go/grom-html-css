@@ -1,9 +1,9 @@
 * {
   box-sizing: border-box;
 }
-.all-inputs {
+form {
   margin: 32px;
 }
-[type] {
+input {
   margin: 8px;
 }
