@@ -48,9 +48,9 @@ body {
   justify-content: center;
   height: 100vh;
 }
-[type='password']:focus:invalid {
+[type='password']:invalid {
   border: 3px solid #ff0000;
 }
-[type='email']:focus:invalid {
+[type='email']:invalid {
   border: 3px solid #ff0000;
 }
