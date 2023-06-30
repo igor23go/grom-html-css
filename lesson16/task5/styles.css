@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+.all-inputs {
+  margin: 32px;
+}
+[type] {
+  margin: 8px;
+}
