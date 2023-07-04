@@ -28,7 +28,7 @@ tbody > tr:hover {
   color: white;
 }
 caption {
-  margin: 8px;
+  margin-bottom: 8px;
 }
 tfoot {
   font-weight: 700;
