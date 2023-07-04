@@ -28,12 +28,12 @@ tbody > tr:hover {
   color: white;
 }
 caption {
-  padding-bottom: 8px;
+  margin: 8px;
 }
 tfoot {
   font-weight: 700;
 }
-thead {
+th {
   background-color: aqua;
 }
 div {
