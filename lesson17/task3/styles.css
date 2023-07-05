@@ -12,7 +12,7 @@ td {
   height: 50px;
   text-align: center;
 }
-tr:first-child td,
+tr:first-child td:not(:first-child):not(:last-child),
 tr:last-child td,
 tr td:first-child,
 tr td:last-child {
