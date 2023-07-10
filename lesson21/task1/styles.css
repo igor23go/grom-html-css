@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+}
+
+h1 {
+  margin: auto;
+}
+
+p {
+  padding: 4px;
+  margin: auto;
+  overflow: hidden;
+}
