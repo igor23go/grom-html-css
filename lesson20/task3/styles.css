@@ -16,7 +16,7 @@
   border-top: 4px solid black;
   border-radius: 50%;
   margin-bottom: 8px;
-  animation: rotation 2s infinite;
+  animation: rotation 2s infinite linear;
 }
 .spinner-text {
   font-family: monospace;
