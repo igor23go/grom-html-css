@@ -3,7 +3,11 @@
 }
 body {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 img {
   max-width: 100%;
+  flex: 1;
+  display: block;
 }
