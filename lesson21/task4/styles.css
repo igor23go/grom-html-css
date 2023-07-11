@@ -27,7 +27,6 @@ html {
 .main {
   display: flex;
   min-height: 100vh;
-  font-size: 1.25em;
 }
 
 /* navigation */
@@ -62,6 +61,7 @@ html {
   display: flex;
   flex-direction: column;
   padding: 0.5em;
+  font-size: 1.25em;
 }
 
 .section__header {
@@ -72,13 +72,13 @@ html {
 
 .units-list {
   line-height: 1.75em;
-  font-size: 1.125em;
 }
 
 .css-units {
   color: #8b0000;
   background-color: #e5e5e5;
   font-weight: 700;
+  font-size: 1.125em;
 }
 
 /* news  */
