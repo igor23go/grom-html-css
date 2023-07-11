@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  min-height: 100vh;
+}
+
+.gallery {
+  width: 80%;
+  background-color: #fa5;
+  display: flex;
+}
+
+.image {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.ideas {
+  width: 20%;
+  background-color: #5af;
+  display: flex;
+}
+
+.idea {
+  display: block;
+  margin: auto;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
