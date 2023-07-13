@@ -48,20 +48,22 @@ body {
   padding: 0;
 }
 .nav-list-item {
+  list-style-type: none;
   background-color: #808080;
   margin-bottom: 0.5em;
   line-height: 2em;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  height: 2em;
 }
 
 .nav-list-link {
   color: white;
   text-decoration: none;
-  padding-left: 0.5em;
-  display: block;
-  height: 2em;
+  padding: 0 0.5em;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 /* section main  */
