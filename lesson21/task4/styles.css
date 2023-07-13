@@ -72,6 +72,7 @@ body {
   flex-direction: column;
   padding: 0.5em;
   font-size: 1.25em;
+  height: 100%;
 }
 
 .section__header {
