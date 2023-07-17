@@ -1,6 +1,13 @@
 * {
   box-sizing: border-box;
 }
+
 img {
+  max-width: 100%;
+  margin: auto;
+}
+
+picture {
+  display: flex;
   width: 100%;
 }
