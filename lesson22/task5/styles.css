@@ -100,7 +100,7 @@ img {
   padding: 0.5em;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 599px) and (orientation: portrait) {
   .main {
     display: flex;
     flex-direction: column;
