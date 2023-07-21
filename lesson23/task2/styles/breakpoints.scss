@@ -1,0 +1,34 @@
+$unit: 1px;
+
+$color-primary: #ff7f50;
+$color-secondary: #8a2be2;
+$color-tertiary: #a61;
+$color-fourth: #c47;
+
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+
+@mixin for-midium {
+  @media screen and (min-width: $sm) and (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin for-large {
+  @media screen and (min-width: $md) and (max-width: $lg) {
+    @content;
+  }
+}
+
+@mixin for-xxxlarge {
+  @media screen and (min-width: $lg) {
+    @content;
+  }
+}
+
+@mixin orientation {
+  @media screen and (orientation: landscape) {
+    @content;
+  }
+}
