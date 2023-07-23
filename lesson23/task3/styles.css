@@ -37,11 +37,11 @@
   top: 3em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.menu__item_active .submenu .submenu__item {
+.menu__item_active .submenu__item {
   padding: 0 8px;
   list-style: none;
 }
-.menu__item_active .submenu .submenu__item:hover {
+.menu__item_active .submenu__item:hover {
   color: #000;
 }
 .menu__item_active:hover .submenu {
