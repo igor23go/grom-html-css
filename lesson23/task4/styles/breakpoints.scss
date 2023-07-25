@@ -1,0 +1,23 @@
+$color-navigation: #ff7f50;
+$color-products: #006400;
+$color-news: #0ff;
+$text-color-back: #faebd7;
+
+$border-radius: 4px;
+
+$height-block: 200px;
+
+$sm: 600px;
+$lg: 900px;
+
+@mixin for-mid-size {
+  @media screen and (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin for-large {
+  @media screen and (min-width: $lg) {
+    @content;
+  }
+}
